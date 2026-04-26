@@ -1,0 +1,78 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Georgia, serif;
+  background: #f9f6f0;
+  color: #2c2c2c;
+  min-height: 100vh;
+}
+
+.app { max-width: 900px; margin: 0 auto; padding: 2rem; }
+
+header {
+  text-align: center;
+  padding: 3rem 0 2rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+
+header h1 { font-size: 2.5rem; color: #1a1a1a; }
+header p { color: #666; margin-top: 0.5rem; }
+
+h2 { font-size: 1.3rem; margin-bottom: 1.2rem; color: #444; }
+
+.random-section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.random-card { margin-bottom: 1.5rem; }
+
+.quote-text {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  font-style: italic;
+  margin-bottom: 0.8rem;
+}
+
+.quote-author { color: #666; font-size: 0.95rem; margin-bottom: 0.6rem; }
+
+.category {
+  display: inline-block;
+  background: #f0ebe0;
+  color: #7a6a50;
+  padding: 0.2rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+button {
+  background: #2c2c2c;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+button:hover { background: #444; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.loading { text-align: center; padding: 4rem; font-size: 1.2rem; color: #888; }
