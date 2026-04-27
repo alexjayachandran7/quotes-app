@@ -1,0 +1,16 @@
+{
+  "name": "Daily Quotes",
+  "short_name": "Quotes",
+  "description": "Wisdom from history's greatest minds",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0eeea",
+  "theme_color": "#1d1d1f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
